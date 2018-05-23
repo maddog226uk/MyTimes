@@ -1,0 +1,36 @@
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding-bottom: 6px;
+}
+
+#logos {
+    color: MediumAquamarine;
+    display: inline-flex;
+
+}
+
+*li.menu {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+
+
+}
+
+
+ /*a {*/
+    /*display: inline-block;*/
+    /*flex-direction: row;*/
+    /*justify-content: center;*/
+    /*align-content: space-around;*/
+/*}*/
