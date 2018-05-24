@@ -14,23 +14,23 @@
 #logos {
     color: MediumAquamarine;
     display: inline-flex;
+    padding-left: 6px;
 
 }
 
-*li.menu {
+.container-1 li {
     display: inline-flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: space-around;
-    align-items: center;
+    justify-content: flex-end;
 
+    /*
+    padding-left: 400px;
+    */
 
 }
+.container-1 a.p1 {
+    display: flex;
+    justify-content: flex-end;
+    color: green;
+    /*padding-left: 1000px;*/
+}
 
-
- /*a {*/
-    /*display: inline-block;*/
-    /*flex-direction: row;*/
-    /*justify-content: center;*/
-    /*align-content: space-around;*/
-/*}*/
