@@ -1,5 +1,5 @@
 
-
+/* Heading */
 .header {
     display: flex;
     flex-direction: row;
@@ -33,4 +33,27 @@
     color: green;
     /*padding-left: 1000px;*/
 }
+/* Content */
+.column.large {
+    float: left;
+    width: 630px;
+    border: 1px solid black;
+    margin-top: 30px;
+    
+  }
+.box1, .box2, .box3 {
+    border: 1px solid black;
+}
+.heading {
+    border: 1px solid black;
+    margin-top: 1px;
+
+}
+.column.medium {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 30px;
+  }
 
